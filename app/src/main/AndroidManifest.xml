@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iyashwant.spiderprojectprototype">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".Login2"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".Login"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Registration.signup"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Registration.signup2"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Registration.signup3"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Registration.signup4"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Registration.Verification"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfileView" />
+        <activity android:name=".StartingScreen" />
+        <activity android:name=".signup3client" />
+        <activity android:name=".signupclient" />
+        <activity
+            android:name=".Swipe.Tinderswipemain"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Contacts" />
+        <activity
+            android:name=".ProfileView2"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Settings"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".Main2Activity"/>
+    </application>
+
+</manifest>

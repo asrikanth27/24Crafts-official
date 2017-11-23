@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">24 Crafts</string>
+    <string name="date_selected" />
+
+    <string-array name="who">
+        <item>Who</item>
+        <item>"Director"</item>
+        <item>"producer"</item>
+        <item>"Actor"</item>
+        <item>"Actress"</item>
+    </string-array>
+    <string-array name="words">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+
+    </string-array>
+
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+    <string name="title_activity_main2">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_inbox_tab">InboxTab</string>
+    <string name="jwtTokenKey">UserToken</string>
+
+    <string name="sample_auth_token">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InR1dHV0YXBhc3dpQGdtYWlsLmNvbSIsImlkIjoiNWExNTU2NDQ4OWNhZWEwNjMwZmNhNjFmIiwiaXNDbGllbnQiOmZhbHNlLCJjYXRlZ29yeSI6IkNSQUZUU01BTiIsImlhdCI6MTUxMTM0Nzc4NSwiZXhwIjoxNTExNDM0MTg1fQ.kihgdfj59ZvU8OpPEkF4gjbHDrzFll97ju0PT4CEwCU</string>
+</resources>
